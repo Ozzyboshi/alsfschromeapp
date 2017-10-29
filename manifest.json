@@ -1,0 +1,17 @@
+{
+    "name": "Alsfs",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Upload links to your amiga",
+    "options_page": "options.html",
+    "permissions": [
+      "contextMenus",
+      "downloads",
+	  "file://*",
+	  "<all_urls>",
+    "storage"
+     ],
+    "background": { 
+      "scripts": ["jszip.min.js","script.js"]
+    }
+}
